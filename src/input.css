@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-jost:"Jost", sans-serif;
+  --text-headingsize:100px;
+}
+/*  If applied to all */
+
+*{
+    font-family: "Jost", sans-serif;
+}

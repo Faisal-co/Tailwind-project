@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+     <!-- OR -->
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Project Tailwind</title>
+</head>
+<body>
+    
+    <!-- <div class="flex justify-center">
+    <h1 class = "text-center text-red-500">flex and center</h1>
+    <h1 class = "text-[#9eb70e] p-[70px] text-center">Custom Color</h1>
+    </div> -->
+    <div class="flex justify-center">
+    <section class = "bg-[url('images/Office-Window-Glass.jpg')] bg-center bg-cover w-[100%] h-screen">
+        <!-- <h1 class="font-jost text-headingsize">Using Google font Custom</h1> -->
+    <header class="py-5">
+        <div class="max-w-[1240] mx-auto flex justify-between items-center md:px-0 px-[25px]">
+            <figure>
+                <img src="images/logoonew.webp" alt="" width="100px">
+            </figure>
+            <!-- md:hidden, ka mutlab hai, Medium & large screen men display hoga lekin MOBILE men nhi ho ga.-->
+            <nav class=" my-5 md:w-auto duration-700 w-[80%] md:h-auto h-screen md:p-0 p-4 md:bg-transparent bg-blue-950 md:static fixed top-0 left-[-100%] z-2">
+                <ul class="flex md:flex-row flex-col gap-2.5 mr-9">
+                    <li><a class="md:text-orange-400 text-white  text-wiegh text-[17px] font-jost uppercase">About</a></li>
+                    <li><a class="md:text-black text-white  text-wiegh text-[17px] font-jost uppercase">Products</a></li>
+                    <li><a class="md:text-black text-white  text-wiegh text-[17px] font-jost uppercase">Plans</a></li>
+                    <li><a class="md:text-black text-white  text-wiegh text-[17px] font-jost uppercase">Location</a></li>
+                    <li><a class="md:text-black text-white  text-wiegh text-[17px] font-jost uppercase">Price</a></li>
+                    <li><a class="md:text-black text-white  text-wiegh text-[17px] font-jost uppercase">Amenities</a></li>
+                    <li><a class="md:text-black text-white  text-wiegh text-[17px] font-jost uppercase">Specification</a></li>
+                    <li><a class="md:text-black text-white  text-wiegh text-[17px] font-jost uppercase">Gallary</a></li>
+                    <li><a class="md:text-black text-white  text-wiegh text-[17px] font-jost uppercase">Contact us</a></li>
+                </ul>
+            </nav>
+            <button id = "mIcon" class="md:hidden block">
+            <i class="fa-solid fa-bars text-blue-300"></i>
+            </button>
+        </div>
+        <div class="text-center md:py-[200px] py-[50px] px-[15px] ">
+            <h1 class = " font-jost md:text-[40px] text-[20px] text-pink-400">
+            All you need is here, in one place, <br class="md:block hidden"/>
+            all you fsaa dfdsvsdv dfsdf dfsdvs sdvsd svsdv.
+        </h1>
+        <p class="text-green-500 text-[26px] mt-4">
+            It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections <br class="md:block hidden"/> 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum.
+        </p>
+        <button class="bg-black text-white text-[17px] font-[600] p-[15px_30px] cursor-pointer hover:bg-amber-600 hover:text-blue-800 duration-500 animate-bounce ">
+            Download Brochure  <i class="fa-solid fa-arrow-right "></i>
+        </button>
+        </div>
+        
+    </header>
+    
+    </section>
+    </div>
+
+    <section class="bg-white md:py-[70px] py-8">
+        <div class="max-w-[1240px] mx-auto grid md:grid-cols-2 grid-cols-1">
+            <figure>
+                <img class="md:w-[40%] w-[30%] mx-auto" src="images/banner.jpg" alt="">
+            </figure>
+            <article class="md:p-0 p-5">
+                <h2 class="mt-5 md:text-[40px] text-[16px] font-jost font-medium text-[#9eb70e]">
+                    It has roots in a piece of classical Latin literature from <br class="md:block hidden"/> 45 BC, making it over 2000 years old.
+                </h2>
+                <h3 mt-5>
+                   a Latin professor at Hampden-Sydney College in Virginia, <br class="md:block hidden" />looked up one of the more obscure Latin words, consectetur 
+                </h3>
+                <p>
+                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                </p>
+             <p>
+                Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum.
+             </p>
+             <button class="bg-blue-950 text-white p-[12px_24px] mt-5">
+                Read More
+             </button>
+            </article>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+</html> 
